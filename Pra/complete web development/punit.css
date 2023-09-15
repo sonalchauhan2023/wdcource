@@ -1,0 +1,13 @@
+body 
+{background-color: rgb(145, 145, 221);}
+div{background-color: rgb(121, 67, 67);}
+nav{padding: 10px;
+
+}
+nav ul{
+    margin: 0%;
+    padding: 0%;
+}
+nav ul li{list-style: none;
+    display: inline-block;
+}
