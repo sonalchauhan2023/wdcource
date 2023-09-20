@@ -1,0 +1,7 @@
+span+p {
+    color: darkmagenta;
+}
+
+h2+p {
+    color: cornflowerblue;
+}

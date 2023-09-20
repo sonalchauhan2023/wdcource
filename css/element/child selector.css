@@ -1,0 +1,9 @@
+nav {
+    background-color: burlywood;
+}
+
+div>a {
+    text-decoration: none;
+    background-color: cadetblue;
+    color: burlywood;
+}
