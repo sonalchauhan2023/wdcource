@@ -1,0 +1,55 @@
+.text-color {
+    border: 1px solid;
+    color: rebeccapurple;
+    margin: 10px;
+}
+
+.text-align {
+    border: 2px solid black;
+    text-align: center;
+    text-align: left;
+    text-align: right;
+    text-align: justify;
+    margin: 10px;
+}
+
+.text-decoration {
+    border: 1px solid red;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.text transform {
+    border: 1px solid black;
+    text-transform: capitalize;
+    text-transform: uppercase;
+    text-transform: lowercase;
+    margin: 10px;
+}
+
+.text-indent {
+    border: 1px solid gray;
+    text-indent: 200px;
+    margin: 10px;
+}
+
+.letter-spacing {
+    border: 1px solid blue;
+    letter-spacing: 5px;
+    margin: 10px;
+
+}
+
+.word-spacing {
+    border: 1px solid blue;
+    word-spacing: 15px;
+    margin: 10px;
+}
+
+.text-shadow {
+    font-size: 100px;
+    text-shadow: 50px 30px 2px red;
+}
