@@ -1,0 +1,31 @@
+.font-size {
+    font-size: 40px;
+}
+
+.font-weight {
+    /* font ne bold , initial karva mate */
+    font-weight: 700px;
+    font-weight: bold;
+    /* font-weight: initial; */
+}
+
+.font-variant {
+    /* capital karva mate use thay pan size ae j re */
+    font-size: 25px;
+    font-variant: small-caps;
+    /* font-variant: normal; */
+}
+
+.font-family {
+    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Martian Mono', monospace;
+}
+
+.font-style {
+    font-style: oblique;
+}
+
+.line-height {
+    height: 30px;
+    line-height: 30px;
+}
