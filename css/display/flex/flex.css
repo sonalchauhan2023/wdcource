@@ -1,0 +1,140 @@
+* {
+    border: 1px solid;
+}
+
+.row {
+
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.flex-dir-col {
+    display: flex;
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
+
+}
+
+.flex-dir-row {
+    display: flex;
+    /* flex-direction: row; */
+    flex-direction: row-reverse;
+}
+
+.flex-container div {
+    width: 250px;
+    height: 200px;
+}
+
+.flex-container {
+    align-content: flex-end;
+    align-content: flex-start;
+    align-content: center;
+    align-content: space-around;
+    align-content: space-between;
+    align-content: space-evenly;
+    align-content: stretch;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flex-justify-content div {
+    height: 100px;
+}
+
+.flex-justify-content {
+    justify-content: start;
+    justify-content: end;
+    justify-content: center;
+    justify-content: flex-end;
+    justify-content: space-around;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    height: 500px;
+}
+
+.flex-wrap {
+    height: 100px;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.flex-wrap div {
+    width: 200px;
+}
+
+.no-wrap {
+    flex-wrap: nowrap;
+}
+
+.no-wrap div {
+    width: 200px;
+}
+
+.flex-wrap-reverse {
+    flex-wrap: wrap-reverse;
+}
+
+.flex-wrap-reverse div {
+    width: 200px;
+}
+
+.flex-flow {
+    flex-flow: column-reverse;
+    flex-flow: column;
+    flex-flow: row;
+    flex-flow: row-reverse;
+}
+
+.flex-column-row-gap {
+    row-gap: 10px;
+    column-gap: 50px;
+    flex-wrap: wrap;
+}
+
+.flex-column-row-gap div {
+    width: 200px;
+}
+
+.flex-grow div {
+    flex-grow: 1;
+
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+
+.box-content {
+    flex-grow: 1;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.box1-content {
+    flex-grow: 2;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+#content {
+    display: flex;
+    width: 500px;
+}
+
+#content div {
+    flex-basis: 120px;
+    border: 3px solid rgba(0, 0, 0, 0.2);
+}
+
+.box-content-shrink {
+    flex-shrink: 1;
+}
+
+.box1-content-shrink {
+    flex-shrink: 2;
+}
