@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+section {
+    background-color: blue;
+    /* border: 1px solid red; */
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 15px;
+    align-items: center;
+
+}
+
+.logo {
+    width: 200px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.link ul li {
+    display: inline-block;
+    margin: 15px;
+    /* color: white; */
+}
+
+
+.link a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
