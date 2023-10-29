@@ -1,0 +1,24 @@
+.box {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+    animation: sonal 2s alternate infinite;
+    /* animation-name: sonal; */
+    /* position: relative; */
+    /* animation-duration: 3s;
+    animation-name: bounce; */
+}
+
+@keyframes sonal {
+    to {
+        /* top: 50px; */
+        transform: rotatex(360deg);
+    }
+
+    from {
+        /* top: 200px; */
+        border-radius: 50%;
+        background-color: red;
+    }
+}
