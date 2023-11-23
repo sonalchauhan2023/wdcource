@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sec {
+
+    background-image: linear-gradient(#191530ba, #1c1a35ba, #262341dc), url(./parashoot.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    -webkit-clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 49% 100%);
+    clip-path: polygon(0 80%, 0 0, 100% 0, 100% 80%, 49% 100%);
+
+
+}
+
+.sec-main {
+    padding: 50px 0;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+h1 {
+
+    color: white;
+    border: 2px solid white;
+
+
+}
+
+
+
+h1::first-letter {
+    background-color: white;
+    color: silver;
+    padding: 0 10px;
+}
+
+
+.link ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.link a {
+    color: white;
+}
+
+.pra h5 {
+    font-size: 20px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.head h2 {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.dot h3 {
+    font-size: 30px;
+    color: red;
+    position: relative;
+    width: 100%;
+    margin: 0px auto 25px;
+    text-align: center;
+}
+
+.dot h3:before {
+    content: "";
+    display: block;
+    width: 92px;
+    text-align: center;
+    height: 3px;
+    right: 498px;
+    top: 70%;
+    background: white;
+    position: absolute;
+}
+
+.dot h3::after {
+    content: "";
+    display: block;
+    width: 100px;
+    text-align: center;
+    height: 3px;
+    left: 490px;
+    top: 70%;
+    background: white;
+    position: absolute;
+
+}
+
+.p-li p {
+    font-size: 15px;
+    width: 49%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn input {
+    font-size: 15px;
+    padding: 5px 15px;
+    background-color: tomato;
+    color: white;
+    border: none;
+
+}
+
+.btn,
+.btn-1 {
+    margin: 20px 0 50px 0;
+}
+
+
+.btn-1 input {
+    font-size: 15px;
+    padding: 5px 15px;
+    margin-left: 20px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
