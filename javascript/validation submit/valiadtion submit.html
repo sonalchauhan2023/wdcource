@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post" id="myform">
+        <input type="text" placeholder="Enter User Name" required autocomplete="off" name="username"
+            id="username"><br><br>
+
+        <input type="text" placeholder="Enter User Name" required autocomplete="off" name="password"
+            id="password"><br><br>
+
+        <input type="text" placeholder="Enter User Name" required autocomplete="off" name="email" id="email"><br><br>
+
+        <input type="text" placeholder="Enter User Name" required autocomplete="off" name="mobile" id="mobile"><br><br>
+
+        <button type="submit" name="btn" id="btn">save</button>
+    </form>
+    <Script>
+        const allinput = document.querySelectorAll('input');
+        allinput.forEach((inputs) => {
+            // console.log(data);
+            inputs.addEventListener("blur", function () {
+                let p = document.createElement("span");
+                const newtext = document.createTextNode("this is reuired");
+                p.appendChild(newtext);
+                // console.log("called", this.value);
+                if (this.value == "") {
+                    console.log(this.nextSibling.nodeName);
+                    if (this.nextSibling.nodeName == "SPAN") {
+                        // console.log(this.nextSibling.remove());                    
+                        this.nextSibling.remove()
+                    } else {
+                        this.after(p);
+                    }
+                } else {
+                    this.nextSibling;
+                    console.log(this.nextSibling);
+                    console.log(this.nextSibling.remove());
+                }
+            })
+        })
+        document.getElementById("myform").addEventListener("submit", (e) => {
+            e.preventDefault();
+            console.log("called");
+            // handle submit 
+        })
+    </Script>
+</body>
+
+</html>
