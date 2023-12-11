@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form {
+            border: 1px solid black;
+            width: 25%;
+            padding: 20px 0 50px 0;
+        }
+
+        td {
+            font-size: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <form onsubmit="return check()">
+        <table>
+            <tr>
+
+                <h4>>Marksheet for information technology</h4>
+                <p style="text-align: center;">Enter marks</p>
+
+            </tr>
+            <tr>
+                <td><label for=" c language"> c language</label></td>
+                <td><input type="text" id="c"></td>
+            </tr>
+            <tr>
+                <td> <label for=" c++ language"> c++ language</label></td>
+                <td><input type="text" id="c++"></td>
+            </tr>
+            <tr>
+                <td><label for=" Database">Database</label></td>
+                <td><input type="text" id="data"></td>
+            </tr>
+            <tr>
+                <td><label for=" HTML">HTML</label></td>
+                <td><input type="text" id="html"></td>
+            </tr>
+            <tr>
+                <td><label for=" CSS">CSS</label></td>
+                <td><input type="text" id="css"></td>
+            </tr>
+            <tr>
+                <td><label for=" PHP">PHP</label></td>
+                <td><input type="text" id="php"></td>
+            </tr>
+            <tr>
+                <td><label for=" corejava">Corejava</label></td>
+                <td><input type="text" id="core"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><button>Result</button></td>
+            </tr>
+            <p id="data"></p>
+            <p id="data1"></p>
+        </table>
+    </form>
+
+
+    <script>
+        function check() {
+            var a = parseInt(document.getElementById("c").value);
+            var b = parseInt(document.getElementById("c++").value);
+            var c = parseInt(document.getElementById("data").value);
+            var d = parseInt(document.getElementById("html").value);
+            var e = parseInt(document.getElementById("css").value);
+            var f = parseInt(document.getElementById("php").value);
+            var g = parseInt(document.getElementById("core").value);
+
+            var total = a + b + c + d + e + f + g;
+            var per = (total * 100 / 700);
+
+            document.getElementById("data").innerHTML = "Total Marks" + total + "700";
+            document.getElementById("data1").innerHTML = "Percentage" + per + "%";
+
+            return false;
+        }
+    </script>
+</body>
+
+</html>
